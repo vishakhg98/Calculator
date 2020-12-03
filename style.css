@@ -60,11 +60,16 @@ body {
     font-size: 2.5rem;
 }
 
-.bottom { 
+.bottom-left { 
     border-radius: 0px 0px 0px 25px;
 
 }
 .span-two ~ .span-two {
     font-size: 3.5rem;
     border-radius: 0px 0px 25px 0px;
+}
+
+button[data-delete] {
+    color: #e74c4c;
+    font-size: 1.5rem;
 }

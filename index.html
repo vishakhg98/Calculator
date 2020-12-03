@@ -10,28 +10,28 @@
 </head>
 <body>
     <div class="calculator-grid">
-        <div class="output">
-            <div class="previous-operand">123+</div>
-            <div class="current-operand">456</div>
+        <div class="output" name="output">
+            <div data-previous-operand class="previous-operand" name="previous-operand"></div>
+            <div data-current-operand class="current-operand">0</div>
         </div>
-        <button class="span-two">AC</button>
-        <button style="color: rgb(231, 76, 76); font-size: 1.5rem;">&#9003</button>
-        <button>&divide;</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>&times;</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>&minus;</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button>
-        <button class="bottom">0</button>
-        <button>.</button>
-        <button class="span-two">=</button>
+        <button data-all-clear class="span-two" onclick="clearall()">AC</button>
+        <button data-delete onclick="backspace()">&#9003</button>
+        <button data-operation onclick="insert('/')">&divide;</button>
+        <button data-number onclick="insert(7)">7</button>
+        <button data-number onclick="insert(8)">8</button>
+        <button data-number onclick="insert(9)">9</button>
+        <button data-operation onclick="insert('&times')">&times;</button>
+        <button data-number onclick="insert(4)">4</button>
+        <button data-number onclick="insert(5)">5</button>
+        <button data-number onclick="insert(6)">6</button>
+        <button data-operation onclick="insert('-')">&minus;</button>
+        <button data-number onclick="insert(1)">1</button>
+        <button data-number onclick="insert(2)">2</button>
+        <button data-number onclick="insert(3)">3</button>
+        <button data-operation onclick="insert('+')">+</button>
+        <button data-number class="bottom-left" onclick="insert(0)">0</button>
+        <button data-number onclick="insert('.')">.</button>
+        <button data-equals class="span-two" onclick="equal()">=</button>
     </div>
 </body>
 </html>
