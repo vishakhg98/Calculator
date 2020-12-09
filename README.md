@@ -2,7 +2,7 @@
  Basic simple calculator built to practice HTML, CSS, JS.
 
 ## Just Run
-https://vishakhg98.github.io//Calculator/
+https://vishakhg98.github.io/Calculator/
 
 ## Download
 [Download](https://github.com/vishakhg98/Inventory-Management-System/archive/master.zip)
