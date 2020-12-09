@@ -15,4 +15,4 @@ Just open index.html to run the program in your default browser.
 
 
 ## Screenshots 📸
-![SS](https://github.com/vishakhg98/Calculator/blob/main/Screenshot/Calculator.png)
+![SS](https://github.com/vishakhg98/Calculator/blob/main/assets/Screenshot/Calculator.png)
