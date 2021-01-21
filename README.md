@@ -5,7 +5,7 @@
 https://vishakhg98.github.io/Calculator/
 
 ## Download
-[Download](https://github.com/vishakhg98/Inventory-Management-System/archive/master.zip)
+[Download](https://github.com/vishakhg98/Calculator/archive/main.zip)
 Just open index.html to run the program in your default browser.
 
 ## Features
